@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingredient Selection</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Choose Ingredients</h1>
+    <form id="ingredientForm">
+      <div class="form-group">
+        <label for="ingredientInput">Ingredients:</label>
+        <input type="text" id="ingredientInput" class="autocomplete" placeholder="Enter ingredient">
+        <button type="button" id="addIngredientBtn">Add Ingredient</button>
+      </div>
+      <ul id="ingredientList"></ul>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script src="../static/script.js"></script>
+</body>
+</html>
