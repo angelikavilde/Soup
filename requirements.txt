@@ -1,2 +1,4 @@
 beautifulsoup4
---upgrade pip
+flask
+psycopg2-binary
+python-dotenv
